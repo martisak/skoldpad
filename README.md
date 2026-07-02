@@ -100,6 +100,14 @@ shells) are in [`case/`](./case):
 * The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
 * nice!view support is untested — should work per the footprint, but not confirmed on hardware.
 
+## Future Work
+
+* Move to Choc v2 switches — currently on v1, which has a smaller center post than v2.
+* Test compatibility with full-size MX switches.
+* Test nice!view once one arrives (currently on order).
+* Look into [CERN-OHL](https://cern-ohl.web.cern.ch/) as a hardware-specific alternative to
+  CC BY 4.0 for `LICENSE-HARDWARE`.
+
 ## License
 
 Code (footprint generator scripts, build tooling) is [MIT](./LICENSE). The
