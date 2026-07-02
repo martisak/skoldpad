@@ -105,14 +105,12 @@ shells) are in [`case/`](./case):
 * Move to Choc v2 switches — currently on v1, which has a smaller center post than v2.
 * Test compatibility with full-size MX switches.
 * Test nice!view once one arrives (currently on order).
-* Look into [CERN-OHL](https://cern-ohl.web.cern.ch/) as a hardware-specific alternative to
-  CC BY 4.0 for `LICENSE-HARDWARE`.
 
 ## License
 
 Code (footprint generator scripts, build tooling) is [MIT](./LICENSE). The
 hardware design (PCB, schematic, case, and ergogen layout) is
-[CC BY 4.0](./LICENSE-HARDWARE).
+[CERN-OHL-P v2](./LICENSE-HARDWARE).
 
 ## Thanks
 
