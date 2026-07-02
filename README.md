@@ -72,7 +72,11 @@ GitHub Actions on every push; grab the `.uf2` artifacts from the latest successf
 
 ## Case
 
-The case is designed in Shapr3D and not yet exported/published here.
+<p align="center">
+    <img src="./images/case.png" width="60%">
+</p>
+
+The case is designed in Shapr3D and 3D printed; the model itself isn't exported/published here yet.
 
 ## Thanks
 
