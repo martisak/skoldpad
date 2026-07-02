@@ -1,5 +1,9 @@
 # Sköldpad 1.0
 
+<p align="center">
+    <img src="./images/logo.png" width="160">
+</p>
+
 A split, columnar-staggered keyboard with a rotary encoder and a nice!view display, laid out with
 [ergogen](https://github.com/ergogen/ergogen) and routed in KiCad. It's based on/inspired by
 [josukey](https://github.com/Narkoleptika/josukey) (MIT licensed), an ergogen-based Corne clone.
@@ -92,3 +96,4 @@ The case is designed in Shapr3D and 3D printed; the model itself isn't exported/
 * <a href="https://github.com/foostan/crkbd" target="_blank">Corne keyboard</a>
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
 * <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from
+* <a href="https://sv.wikipedia.org/wiki/V%C3%A4sterg%C3%B6tlands_landskapsvapen" target="_blank">Västergötlands landskapsvapen</a> — inspiration for the logo
