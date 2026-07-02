@@ -104,6 +104,7 @@ hardware design (PCB, schematic, case, and ergogen layout) is
 * <a href="https://gitlab.com/Audijo/keyboard" target="_blank">Claw</a>
 * <a href="https://github.com/MrCarney/mrkeyboard" target="_blank">MrKeyboard</a>
 * <a href="https://github.com/foostan/crkbd" target="_blank">Corne keyboard</a>
+* <a href="https://www.youtube.com/watch?v=dg2TT1OJlQs" target="_blank">Ben Vallack</a>
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
 * <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from
 * <a href="https://sv.wikipedia.org/wiki/V%C3%A4sterg%C3%B6tlands_landskapsvapen" target="_blank">Västergötlands landskapsvapen</a> — inspiration for the logo
