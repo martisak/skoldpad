@@ -1,38 +1,47 @@
-# Josukey
+# Sköldpad 1.0
 
-A keyboard for Joey
+A split, columnar-staggered keyboard with a rotary encoder and a nice!view display, laid out with
+[ergogen](https://github.com/ergogen/ergogen) and routed in KiCad. It's based on/inspired by
+[josukey](https://github.com/Narkoleptika/josukey) (MIT licensed), an ergogen-based Corne clone.
 
-This is an ergogen based corne clone that I intend to modify and tweak as I descend into the rabbit hole
-
-<p align="center">
-    <img src="./images/josukey.png" width="100%">
-</p>
-
-## V1
+Firmware (ZMK, built on [Miryoku](https://github.com/manna-harbour/miryoku_zmk)) lives in its own
+repo: **[martisak/zmk-config](https://github.com/martisak/zmk-config)**.
 
 <p align="center">
     <img src="./images/v1.jpg" width="100%">
 </p>
 
+## Renders
+
+<p align="center">
+    <img src="./images/top.png" width="49%">
+    <img src="./images/bottom.png" width="49%">
+</p>
+<p align="center">
+    <img src="./images/shield.png" width="49%">
+    <img src="./images/tank.png" width="49%">
+</p>
+
 ## Prerequisites
 
 * Node
-* Docker
+* KiCad (to open/edit the PCB)
+
 ## Getting Started
 
-Get my files on your computer 😏 and install dependencies.
-
 ```bash
-git clone https://github.com/Narkoleptika/josukey.git
-cd josukey
+git clone https://github.com/martisak/skoldpad.git
+cd skoldpad
 npm i
 ```
 
 ## Ergogen
 
+The layout lives in `ergogen/config.yaml`.
+
 ### Build
 
-This will run Ergogen and build all of the output files.
+Runs Ergogen and builds all of the output files (outlines, case, PCB skeleton) into `ergogen/output`.
 
 ```bash
 npm run ergogen:build
@@ -40,37 +49,30 @@ npm run ergogen:build
 
 ### Watch
 
-This will watch the `config.yaml` file and the `footprints` directory and run the build command whenever there are changes.
+Watches `config.yaml` and the `footprints` directory and re-runs the build on changes.
 
 ```bash
 npm run ergogen:watch
 ```
 
-## ZMK
+## KiCad
 
-### Init
+The hand-routed PCB lives at [`ergogen/kicad/skoldpad.kicad_pcb`](./ergogen/kicad/skoldpad.kicad_pcb)
+(along with the schematic, 3D step model, and the custom `Signature.pretty` footprint library it
+depends on) — open `ergogen/kicad/skoldpad.kicad_pro` in KiCad.
 
-Downloads ZMK dependencies
+## Firmware
 
-```bash
-npm run zmk:update
-```
-
-### Build
-
-Builds the ZMK firmware
+Flashed with ZMK; keymap and firmware config are maintained separately at
+[martisak/zmk-config](https://github.com/martisak/zmk-config):
 
 ```bash
-npm run zmk:build
+git clone git@github.com:martisak/zmk-config.git
 ```
 
-### Down
+## Case
 
-Shuts down the ZMK docker services
-
-```bash
-npm run zmk:down
-```
+The case is designed in Shapr3D and not yet exported/published here.
 
 ## Thanks
 
@@ -82,3 +84,4 @@ npm run zmk:down
 * <a href="https://github.com/foostan/crkbd" target="_blank">Corne keyboard</a>
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
 * <a href="https://github.com/manna-harbour/miryoku_zmk" target="_blank">Miryoku ZMK</a>
+* <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from

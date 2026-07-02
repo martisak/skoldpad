@@ -1,4 +1,5 @@
 node_modules
 ergogen/output
 ergogen/kicad/gerber
-zmk/build
+.DS_Store
+fp-info-cache

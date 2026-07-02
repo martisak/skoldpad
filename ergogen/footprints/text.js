@@ -1,19 +1,21 @@
 module.exports = {
     params: {
-        layer: 'F.SilkS',
+        designator: 'X',
         text: '',
-        h_size: 1,
-        v_size: 1,
-        thickness: 0.15,
-        justify: '',
-        style: ''
+        side: 'F',
+        knockout: false,
+        fontsize: 0.8,
+        font: "Chakra Petch SemiBold"
     },
-    body: p => {
-        const justify = p.justify && `(justify ${p.justify})` || '';
-        return `
-            (gr_text "${p.text}" ${p.at} (layer ${p.layer})
-                (effects (font (size ${p.h_size} ${p.v_size}) (thickness ${p.thickness}) ${p.style}) ${justify})
-            )
+    body: p => `
+        (module lib:text (layer F.Cu) (tedit 648E0265)
+
+        ${p.at /* parametric position */}
+
+        (fp_text user "${p.text}" (at 0 0 ${p.rot + 90}) (layer ${p.side}.Cu ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
+        (fp_text user "${p.text}" (at 0 0 ${p.rot + 90}) (layer ${p.side}.Mask ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
+        )
         `
-    }
+
 }
+
