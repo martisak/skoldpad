@@ -96,6 +96,30 @@ are in [`case/`](./case):
 * [`case/left.stl`](./case/left.stl) / [`case/left_top.stl`](./case/left_top.stl)
 * [`case/right.stl`](./case/right.stl) / [`case/right_top.stl`](./case/right_top.stl)
 
+## Bill of Materials
+
+Quantities below are **per half**; this design is one hand's PCB, fabricated twice (one
+normal, one mirrored) for a complete pair — double everything for a full two-hand build.
+
+| Part | Qty/half | Notes |
+|---|---:|---|
+| [nice!nano](https://nicekeyboards.com/nice-nano/) | 1 | MCU, one per half (each half is an independent BLE unit) |
+| [nice!view](https://nicekeyboards.com/nice-view) | 1 | Display — **untested**, see Known Issues; optional |
+| Panasonic EVQWGD001 rotary encoder | 1 | ⚠️ Discontinued by Panasonic — check old-stock listings (e.g. [Jotrin](https://www.jotrin.com/product/parts/EVQWGD001)) or plan to substitute a pin-compatible EVQW-series encoder |
+| Kailh Choc v1 switch | 23 | See Future Work — v2 is the recommended switch going forward |
+| Kailh PG1350 hotswap socket | 23 | Choc v1 hotswap socket, e.g. [Chosfox](https://chosfox.com/products/kailh-choc-switch-1350-hot-swap-sockets) |
+| SOD-123W diode (e.g. 1N4148W) | 23 | Standard keyboard-matrix switching diode |
+| JST PH 2-pin connector (S2B-PH-K, 2.0mm) | 1 | Battery connector |
+| LiPo battery (JST PH 2-pin) | 1 | Capacity not specified by the design — pick to fit the case |
+| Kailh PCM12 SPDT slide switch | 1 | Power on/off |
+| Würth WS-TASV SMT tactile switch ([434121025816](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/434121025816/5209078)) | 1 | Reset button |
+| M2 screws + threaded inserts/standoffs | 11 sets | One per mounting point in `config.yaml` (`screw_*` positions) |
+| 1u keycap (Choc profile) | 21 | |
+| 1.5u keycap (Choc profile) | 2 | Thumb keys — see Known Issues re: rotation |
+
+Not in the PCB itself but needed to finish a build: the 3D-printed case (see Case section
+above) and a filament of your choice.
+
 ## Known Issues
 
 * The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
@@ -106,9 +130,10 @@ are in [`case/`](./case):
 * Move to Choc v2 switches — currently on v1, which has a smaller center post than v2.
 * Test compatibility with full-size MX switches.
 * Test nice!view once one arrives (currently on order).
-* Write a BOM (bill of materials) — what to buy to build one of these yourself
-  (MCU, display, encoder, switches, sockets, screws/standoffs, etc.), with
-  quantities and sourcing links.
+* Update the BOM's rotary encoder — the specified Panasonic EVQWGD001 is discontinued;
+  find and validate a pin-compatible replacement.
+* Consider per-key LEDs instead of underglow — underglow would need a transparent case,
+  which the current 3D-printed design isn't.
 
 ## License
 
