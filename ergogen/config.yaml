@@ -369,6 +369,10 @@ pcbs.skoldpad:
             outline: _keycap_outlines
             layer: Eco1.User
     footprints:
+        # Note: the PCB also carries a hand-added "Sköldpad by Martin Isaksson
+        # © ... CERN-OHL-P" credit/license line, placed directly in KiCad on top
+        # of the author footprint. It is not generated from this config, so
+        # regenerating the PCB skeleton from here won't reproduce it.
         author:
             what: text
             where:
