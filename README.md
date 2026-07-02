@@ -89,7 +89,11 @@ should work but hasn't been tested yet.
     <img src="./images/case.png" width="60%">
 </p>
 
-The case is designed in Shapr3D and 3D printed; the model itself isn't exported/published here yet.
+The case is designed in Shapr3D and 3D printed. STL files for both halves (top and bottom
+shells) are in [`case/`](./case):
+
+* [`case/left.stl`](./case/left.stl) / [`case/left_top.stl`](./case/left_top.stl)
+* [`case/right.stl`](./case/right.stl) / [`case/right_top.stl`](./case/right_top.stl)
 
 ## Known Issues
 
