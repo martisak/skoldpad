@@ -57,6 +57,10 @@ The hand-routed PCB lives at [`ergogen/kicad/skoldpad.kicad_pcb`](./ergogen/kica
 (along with the schematic, 3D step model, and the custom `Signature.pretty` footprint library it
 depends on) — open `ergogen/kicad/skoldpad.kicad_pro` in KiCad.
 
+<p align="center">
+    <img src="./images/schematic.png" width="100%">
+</p>
+
 ## Firmware
 
 Firmware and keymap are maintained separately at
