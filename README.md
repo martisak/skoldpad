@@ -4,8 +4,8 @@ A split, columnar-staggered keyboard with a rotary encoder and a nice!view displ
 [ergogen](https://github.com/ergogen/ergogen) and routed in KiCad. It's based on/inspired by
 [josukey](https://github.com/Narkoleptika/josukey) (MIT licensed), an ergogen-based Corne clone.
 
-Firmware (ZMK, built on [Miryoku](https://github.com/manna-harbour/miryoku_zmk)) lives in its own
-repo: **[martisak/zmk-config](https://github.com/martisak/zmk-config)**.
+Firmware ([ZMK](https://zmk.dev/), with a custom keymap tuned for Swedish input and coding
+symbols) lives in its own repo: **[martisak/zmk-config](https://github.com/martisak/zmk-config)**.
 
 <p align="center">
     <img src="./images/v1.jpg" width="100%">
@@ -63,12 +63,16 @@ depends on) — open `ergogen/kicad/skoldpad.kicad_pro` in KiCad.
 
 ## Firmware
 
-Flashed with ZMK; keymap and firmware config are maintained separately at
+Firmware and keymap are maintained separately at
 [martisak/zmk-config](https://github.com/martisak/zmk-config):
 
 ```bash
 git clone git@github.com:martisak/zmk-config.git
 ```
+
+It's a `nice_nano_v2` ZMK build with its own keymap (not based on Miryoku), tuned for the
+macOS Swedish layout — base layer plus NUM, FUNC, and directional layers. Builds run in
+GitHub Actions on every push; grab the `.uf2` artifacts from the latest successful run.
 
 ## Case
 
@@ -83,5 +87,4 @@ The case is designed in Shapr3D and not yet exported/published here.
 * <a href="https://github.com/MrCarney/mrkeyboard" target="_blank">MrKeyboard</a>
 * <a href="https://github.com/foostan/crkbd" target="_blank">Corne keyboard</a>
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
-* <a href="https://github.com/manna-harbour/miryoku_zmk" target="_blank">Miryoku ZMK</a>
 * <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from
