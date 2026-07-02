@@ -4,7 +4,8 @@
     <img src="./images/logo.png" width="160">
 </p>
 
-A split, columnar-staggered keyboard with a rotary encoder and a nice!view display, laid out with
+A split, columnar-staggered keyboard built around a
+[nice!nano](https://nicekeyboards.com/nice-nano/) MCU with a rotary encoder, laid out with
 [ergogen](https://github.com/ergogen/ergogen) and routed in KiCad. It's based on/inspired by
 [josukey](https://github.com/Narkoleptika/josukey) (MIT licensed), an ergogen-based Corne clone.
 
@@ -74,9 +75,13 @@ Firmware and keymap are maintained separately at
 git clone git@github.com:martisak/zmk-config.git
 ```
 
-It's a `nice_nano_v2` ZMK build with its own keymap (not based on Miryoku), tuned for the
-macOS Swedish layout — base layer plus NUM, FUNC, and directional layers. Builds run in
-GitHub Actions on every push; grab the `.uf2` artifacts from the latest successful run.
+It's a [nice!nano](https://nicekeyboards.com/nice-nano/) ZMK build with its own keymap (not
+based on Miryoku), tuned for the macOS Swedish layout — base layer plus NUM, FUNC, and
+directional layers. Builds run in GitHub Actions on every push; grab the `.uf2` artifacts from
+the latest successful run.
+
+The PCB footprints support a [nice!view](https://nicekeyboards.com/nice-view) display — this
+should work but hasn't been tested yet.
 
 ## Case
 
@@ -89,6 +94,7 @@ The case is designed in Shapr3D and 3D printed; the model itself isn't exported/
 ## Known Issues
 
 * The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
+* nice!view support is untested — should work per the footprint, but not confirmed on hardware.
 
 ## License
 
