@@ -86,6 +86,10 @@ GitHub Actions on every push; grab the `.uf2` artifacts from the latest successf
 
 The case is designed in Shapr3D and 3D printed; the model itself isn't exported/published here yet.
 
+## Known Issues
+
+* The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
+
 ## Thanks
 
 * <a href="https://github.com/ergogen/ergogen" target="_blank">Ergogen</a>
