@@ -89,8 +89,9 @@ should work but hasn't been tested yet.
     <img src="./images/case.png" width="60%">
 </p>
 
-The case is designed in Shapr3D and 3D printed. STL files for both halves (top and bottom
-shells) are in [`case/`](./case):
+The case is designed in [Shapr3D](https://app.shapr3d.com/p/ba8f4a1e-6f99-4bed-8f1e-6df41bfcee0b)
+(viewable in 3D at that link) and 3D printed. STL files for both halves (top and bottom shells)
+are in [`case/`](./case):
 
 * [`case/left.stl`](./case/left.stl) / [`case/left_top.stl`](./case/left_top.stl)
 * [`case/right.stl`](./case/right.stl) / [`case/right_top.stl`](./case/right_top.stl)
