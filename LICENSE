@@ -1,3 +1,8 @@
+This license covers the software in this repository (ergogen footprint
+generator scripts and build tooling). The keyboard hardware design (PCB,
+schematic, case, and ergogen layout) is licensed separately under CC BY 4.0
+— see LICENSE-HARDWARE.
+
 MIT License
 
 Copyright (c) 2023 Narkoleptika

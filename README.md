@@ -90,6 +90,12 @@ The case is designed in Shapr3D and 3D printed; the model itself isn't exported/
 
 * The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
 
+## License
+
+Code (footprint generator scripts, build tooling) is [MIT](./LICENSE). The
+hardware design (PCB, schematic, case, and ergogen layout) is
+[CC BY 4.0](./LICENSE-HARDWARE).
+
 ## Thanks
 
 * <a href="https://github.com/ergogen/ergogen" target="_blank">Ergogen</a>
