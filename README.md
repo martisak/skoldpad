@@ -7,10 +7,6 @@ A split, columnar-staggered keyboard with a rotary encoder and a nice!view displ
 Firmware ([ZMK](https://zmk.dev/), with a custom keymap tuned for Swedish input and coding
 symbols) lives in its own repo: **[martisak/zmk-config](https://github.com/martisak/zmk-config)**.
 
-<p align="center">
-    <img src="./images/v1.jpg" width="100%">
-</p>
-
 ## Renders
 
 <p align="center">
