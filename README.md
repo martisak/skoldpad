@@ -106,6 +106,9 @@ are in [`case/`](./case):
 * Move to Choc v2 switches — currently on v1, which has a smaller center post than v2.
 * Test compatibility with full-size MX switches.
 * Test nice!view once one arrives (currently on order).
+* Write a BOM (bill of materials) — what to buy to build one of these yourself
+  (MCU, display, encoder, switches, sockets, screws/standoffs, etc.), with
+  quantities and sourcing links.
 
 ## License
 
