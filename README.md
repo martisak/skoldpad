@@ -103,6 +103,9 @@ are in [`case/`](./case):
 Quantities below are **per half**; this design is one hand's PCB, fabricated twice (one
 normal, one mirrored) for a complete pair — double everything for a full two-hand build.
 
+**This PCB is Choc v1 (PG1350) only.** The switch footprint's center hole and stabilizer-leg
+positions don't match Choc v2 or MX, so neither is a drop-in substitution — see Future Work.
+
 | Part | Qty/half | Notes |
 |---|---:|---|
 | [nice!nano](https://nicekeyboards.com/nice-nano/) | 1 | MCU, one per half (each half is an independent BLE unit) |

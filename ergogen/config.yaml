@@ -395,33 +395,33 @@ pcbs.skoldpad:
               side: B
               text: "http://martisak.se"
               font: "Chakra Petch Medium"
-        owner:
+        license:
             what: text
             where:
               ref:
                 - main_pinky_bottom
-              shift: [0kx, -0.8ky]
+              shift: [0.05kx, -0.8ky]
             adjust:
                 rotate: 90
             params:
               knockout: false
               side: F
               fontsize: 0.8
-              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
+              text: "Sköldpad 1.1 © 2026 CERN-OHL-P v2"
               font: "Chakra Petch Medium"
-        owner_back:
+        license_back:
             what: text
             where:
               ref:
                 - main_pinky_bottom
-              shift: [0kx, -0.8ky]
+              shift: [0.05kx, -0.8ky]
             adjust:
                 rotate: 90
             params:
               knockout: false
               side: B
               fontsize: 0.8
-              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
+              text: "Sköldpad 1.1 © 2026 CERN-OHL-P v2"
               font: "Chakra Petch Medium"
         diode:
             what: sod-123w
