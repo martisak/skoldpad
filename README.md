@@ -124,6 +124,9 @@ above) and a filament of your choice.
 
 * The two thumb keys should be rotated to accept a 1.5u keycap, as shown in the renders.
 * nice!view support is untested — should work per the footprint, but not confirmed on hardware.
+* The case's screw posts are thin and prone to cracking when installing the threaded inserts
+  (see Bill of Materials — M2 screws + threaded inserts/standoffs); consider thickening the
+  posts in the Shapr3D model or heat-setting inserts more carefully.
 
 ## Future Work
 
