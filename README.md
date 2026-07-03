@@ -156,3 +156,10 @@ hardware design (PCB, schematic, case, and ergogen layout) is
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
 * <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from
 * <a href="https://sv.wikipedia.org/wiki/V%C3%A4sterg%C3%B6tlands_landskapsvapen" target="_blank">Västergötlands landskapsvapen</a> — inspiration for the logo
+
+## AI Disclosure
+
+Claude (Anthropic) assisted with README and documentation polish — drafting and formatting
+text (including the BOM table and general presentation of this repo) from the author's own
+notes and decisions. The design, PCB, firmware, fabrication work, and content substance
+(including Known Issues and Future Work) are the author's own.
