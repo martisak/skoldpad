@@ -1,7 +1,7 @@
 meta:
   engine: 4.0.2
-  name: Skoldpad
-  version: 0.3
+  name: Sköldpad
+  version: 1.1
   author: martisak
   url: https://github.com/martisak/skoldpad
 units:
@@ -369,10 +369,34 @@ pcbs.skoldpad:
             outline: _keycap_outlines
             layer: Eco1.User
     footprints:
-        # Note: the PCB also carries a hand-added "Sköldpad by Martin Isaksson
-        # © ... CERN-OHL-P" credit/license line, placed directly in KiCad on top
-        # of the author footprint. It is not generated from this config, so
-        # regenerating the PCB skeleton from here won't reproduce it.
+        credit:
+            what: text
+            where:
+              ref:
+                - thumb_outer_home
+              shift: [0kx, 0.6ky - 8]
+            adjust:
+                rotate: 90
+            params:
+              knockout: false
+              side: F
+              fontsize: 1.2
+              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
+              font: "Chakra Petch Medium"
+        credit_back:
+            what: text
+            where:
+              ref:
+                - thumb_outer_home
+              shift: [0kx, 0.6ky - 8]
+            adjust:
+                rotate: 90
+            params:
+              knockout: false
+              side: B
+              fontsize: 1.2
+              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
+              font: "Chakra Petch Medium"
         author:
             what: text
             where:
@@ -385,7 +409,7 @@ pcbs.skoldpad:
               knockout: true
               side: F
               text: "http://martisak.se"
-              font: "Futura"
+              font: "Chakra Petch Medium"
         author_back:
             what: text
             where:
@@ -398,7 +422,7 @@ pcbs.skoldpad:
               knockout: true
               side: B
               text: "http://martisak.se"
-              font: "Futura"
+              font: "Chakra Petch Medium"
         owner:
             what: text
             where:
@@ -412,7 +436,7 @@ pcbs.skoldpad:
               side: F
               fontsize: 1.27
               text: "Martin Isaksson"
-              font: "Futura"
+              font: "Chakra Petch Medium"
         owner_back:
             what: text
             where:
@@ -426,7 +450,7 @@ pcbs.skoldpad:
               side: B
               fontsize: 1.27
               text: "Martin Isaksson"
-              font: "Futura"
+              font: "Chakra Petch Medium"
         diode:
             what: sod-123w
             where: normal
@@ -481,7 +505,7 @@ pcbs.skoldpad:
               P1: MOSI
               P2: SCK
               P3: CS
-              font: "Futura"
+              font: "Chakra Petch Medium"
               fontsize: 0.7
 
         scrollwheel:
@@ -508,7 +532,7 @@ pcbs.skoldpad:
           params:
             reverse: true
             jumpers_at_bottom: true
-            font: "Futura"
+            font: "Chakra Petch Medium"
         jst-s2b-ph-kl:
             what: jst-s2b-ph-kl
             where:

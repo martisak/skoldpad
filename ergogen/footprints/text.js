@@ -5,7 +5,7 @@ module.exports = {
         side: 'F',
         knockout: false,
         fontsize: 0.8,
-        font: "Chakra Petch SemiBold"
+        font: "Chakra Petch Medium"
     },
     body: p => `
         (module lib:text (layer F.Cu) (tedit 648E0265)

@@ -1,7 +1,9 @@
-# Sköldpad 1.0
-
 <p align="center">
-    <img src="./images/logo.png" width="160">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/header-white.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/header-black.svg">
+    <img alt="Sköldpad logo" src="./images/header-black.svg" width="320">
+  </picture>
 </p>
 
 A split, columnar-staggered keyboard built around a
@@ -156,6 +158,7 @@ hardware design (PCB, schematic, case, and ergogen layout) is
 * <a href="https://github.com/zmkfirmware/zmk" target="_blank">ZMK</a>
 * <a href="https://github.com/Narkoleptika/josukey" target="_blank">josukey</a> — the base this board started from
 * <a href="https://sv.wikipedia.org/wiki/V%C3%A4sterg%C3%B6tlands_landskapsvapen" target="_blank">Västergötlands landskapsvapen</a> — inspiration for the logo
+* <a href="https://fonts.google.com/specimen/Chakra+Petch" target="_blank">Chakra Petch</a> — typeface used for PCB text and case engraving
 
 ## AI Disclosure
 

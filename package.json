@@ -1,7 +1,7 @@
 {
     "name": "skoldpad",
-    "description": "Sköldpad 1.0 - a columnar-staggered split keyboard built with ergogen and KiCad",
-    "version": "1.0.0",
+    "description": "Sköldpad 1.1 - a columnar-staggered split keyboard built with ergogen and KiCad",
+    "version": "1.1.0",
     "author": "Martin Isaksson <7222170+martisak@users.noreply.github.com>",
     "license": "MIT",
     "private": true,
@@ -10,7 +10,9 @@
     "bugs": "https://github.com/martisak/skoldpad/issues",
     "scripts": {
         "ergogen:build": "ergogen --clean -o ergogen/output ergogen",
-        "ergogen:watch": "nodemon --ext .js,.yaml --watch ergogen/footprints --watch ergogen/config.yaml --exec npm run ergogen:build"
+        "ergogen:watch": "nodemon --ext .js,.yaml --watch ergogen/footprints --watch ergogen/config.yaml --exec npm run ergogen:build",
+        "lint:spelling": "! grep -rn --include=*.yaml --include=*.json --include=*.md --include=*.js '\\bSkoldpad\\b' . | grep -v node_modules",
+        "lint": "npm run lint:spelling"
     },
     "dependencies": {
         "ergogen": "^4.0.2",
