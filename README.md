@@ -65,8 +65,15 @@ The hand-routed PCB lives at [`ergogen/kicad/skoldpad.kicad_pcb`](./ergogen/kica
 depends on) — open `ergogen/kicad/skoldpad.kicad_pro` in KiCad.
 
 <p align="center">
-    <img src="./images/schematic.png" width="100%">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./images/schematic-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./images/schematic-light.svg">
+    <img alt="Sköldpad PCB layout" src="./images/schematic-light.svg" width="100%">
+  </picture>
 </p>
+
+Regenerate these from the routed board with `make schematics` (requires `kicad-cli` and Python 3
+on `PATH`); see the [`Makefile`](./Makefile).
 
 ## Firmware
 
@@ -88,7 +95,7 @@ should work but hasn't been tested yet.
 ## Case
 
 <p align="center">
-    <img src="./images/case.png" width="60%">
+    <img src="./images/case.png" width="100%">
 </p>
 
 The case is designed in [Shapr3D](https://app.shapr3d.com/p/ba8f4a1e-6f99-4bed-8f1e-6df41bfcee0b)

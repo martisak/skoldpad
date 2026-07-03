@@ -349,7 +349,7 @@
       (tstamp 220fd3fb-0f7c-4755-a51a-6e0adb7cacfe)
     )
     (fp_text user "http://martisak.se" (at 0 0 160) (layer "F.Cu" knockout)
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)))
       (tstamp 25773554-62a4-435d-8992-bca88cca498c)
       (render_cache "http://martisak.se" -20
         (polygon
@@ -930,7 +930,7 @@
       )
     )
     (fp_text user "http://martisak.se" (at 0 0 160) (layer "F.Mask" knockout)
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)))
       (tstamp 9eb28d47-32f5-4834-ac69-8708f21674d3)
       (render_cache "http://martisak.se" -20
         (polygon
@@ -2483,12 +2483,12 @@
       (tstamp 281f3a6d-a8df-45a6-831e-7a0551a7de43)
     )
     (fp_text user "Sköldpad by Martin Isaksson © 2023 CERN-OHL-P" (at 0 -8) (layer "B.Cu")
-        (effects (font (face "Futura") (size 1.2 1.2) (thickness 0.15)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 1.2 1.2) (thickness 0.15)) (justify mirror))
       (tstamp 14c96056-07ed-4aa6-bfc9-fa9879b0ef9e)
       
     )
     (fp_text user "Sköldpad by Martin Isaksson © 2023 CERN-OHL-P" (at 0 -8) (layer "B.Mask")
-        (effects (font (face "Futura") (size 1.2 1.2) (thickness 0.15)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 1.2 1.2) (thickness 0.15)) (justify mirror))
       (tstamp 43009759-61a7-474a-a4ef-1374eac1da08)
       
     )
@@ -3302,7 +3302,7 @@
       (tstamp 61647a40-1321-432c-a588-409e337e479c)
     )
     (fp_text user "VCC" (at 2.75 -5.005) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 01b320d6-06db-4e36-ad74-10040d104552)
       (render_cache "VCC" 0
         (polygon
@@ -3474,7 +3474,7 @@
       )
     )
     (fp_text user "L. Side - Jumper Here" (at 0 -15.245) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify mirror))
       (tstamp 159a853c-4c04-4a7c-bc76-154b1b17c0a1)
       (render_cache "L. Side - Jumper Here" 0
         (polygon
@@ -4143,7 +4143,7 @@
       )
     )
     (fp_text user "RAW" (at 2.75 -12.625) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 1d4e7363-f92b-4269-957b-7d1c79faef20)
       (render_cache "RAW" 0
         (polygon
@@ -4203,7 +4203,7 @@
       )
     )
     (fp_text user "P14" (at 2.75 10.235) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 2b5c94c1-d4bb-4b94-bd0d-2d14dd4c1163)
       (render_cache "P14" 0
         (polygon
@@ -4265,7 +4265,7 @@
       )
     )
     (fp_text user "P5" (at -2.75 5.155) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 2bd87ea9-d06f-4263-a649-6592bb83f83c)
       (render_cache "P5" 0
         (polygon
@@ -4371,7 +4371,7 @@
       )
     )
     (fp_text user "P10" (at 2.75 15.315) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 2c194e05-e7e1-45c0-8bf4-c628e613588d)
       (render_cache "P10" 0
         (polygon
@@ -4519,7 +4519,7 @@
       )
     )
     (fp_text user "RST" (at 2.75 -7.545) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 3f14dcb3-6da7-4350-8d86-23ecc8750daa)
       (render_cache "RST" 0
         (polygon
@@ -4655,7 +4655,7 @@
       )
     )
     (fp_text user "SCK" (at -2.75 -2.465) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 404c3be7-994c-4968-8797-874d62087319)
       (render_cache "SCK" 0
         (polygon
@@ -4834,7 +4834,7 @@
       )
     )
     (fp_text user "P15" (at 2.75 7.695) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 4364e051-117c-43a8-a046-f3d86fbca2aa)
       (render_cache "P15" 0
         (polygon
@@ -4946,7 +4946,7 @@
       )
     )
     (fp_text user "P9" (at -2.75 15.315) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 45a9ded2-9b3c-4140-ae2e-1225bad62364)
       (render_cache "P9" 0
         (polygon
@@ -5058,7 +5058,7 @@
       )
     )
     (fp_text user "GND" (at 2.75 -10.085) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 642b87bf-67ba-4a04-a32c-1d72c409242e)
       (render_cache "GND" 0
         (polygon
@@ -5236,7 +5236,7 @@
       )
     )
     (fp_text user "P6" (at -2.75 7.695) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 64e37fee-2ae0-47c1-b6f4-a7651a643665)
       (render_cache "P6" 0
         (polygon
@@ -5348,7 +5348,7 @@
       )
     )
     (fp_text user "MOSI" (at -2.75 -12.625) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 70cd825e-2726-45b1-8493-457badf31e92)
       (render_cache "MOSI" 0
         (polygon
@@ -5566,7 +5566,7 @@
       )
     )
     (fp_text user "GND" (at -2.75 -5.005) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp 73955e0f-a440-428a-ae93-90b461709dca)
       (render_cache "GND" 0
         (polygon
@@ -5744,7 +5744,7 @@
       )
     )
     (fp_text user "P20" (at 2.75 0.075) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 873e639f-3019-40f1-a574-16377e3d0354)
       (render_cache "P20" 0
         (polygon
@@ -5937,7 +5937,7 @@
       )
     )
     (fp_text user "P21" (at 2.75 -2.465) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp 8fb3927f-d446-4f54-8cfe-d9569d1edf92)
       (render_cache "P21" 0
         (polygon
@@ -6040,7 +6040,7 @@
       )
     )
     (fp_text user "P4" (at -2.75 2.615) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp b356db56-852b-47fe-a5fb-c25b797a0bbe)
       (render_cache "P4" 0
         (polygon
@@ -6096,7 +6096,7 @@
       )
     )
     (fp_text user "CS" (at -2.75 0.075) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp bad277dc-79ee-45b0-be8e-dbc17d080668)
       (render_cache "CS" 0
         (polygon
@@ -6268,7 +6268,7 @@
       )
     )
     (fp_text user "P19" (at 2.75 2.615) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp c4550944-ed3b-442c-bec7-e453111bd39e)
       (render_cache "P19" 0
         (polygon
@@ -6386,7 +6386,7 @@
       )
     )
     (fp_text user "P0" (at -2.75 -10.085) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp ccb33261-ea60-4936-8250-21dee7f17f63)
       (render_cache "P0" 0
         (polygon
@@ -6528,7 +6528,7 @@
       )
     )
     (fp_text user "P8" (at -2.75 12.775) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp cd673f5b-5f66-48d8-9e22-b15428b47040)
       (render_cache "P8" 0
         (polygon
@@ -6677,7 +6677,7 @@
       )
     )
     (fp_text user "GND" (at -2.75 -7.545) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp d6fe0b83-4eab-4886-9c9f-4b507b0eafd0)
       (render_cache "GND" 0
         (polygon
@@ -6855,7 +6855,7 @@
       )
     )
     (fp_text user "P16" (at 2.75 12.775) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp e3cbdae7-1a07-4cc4-8499-03349b729d73)
       (render_cache "P16" 0
         (polygon
@@ -6973,7 +6973,7 @@
       )
     )
     (fp_text user "P7" (at -2.75 10.235) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left mirror))
       (tstamp e625660d-e1c3-427f-b6f0-2cc56d63ee09)
       (render_cache "P7" 0
         (polygon
@@ -7025,7 +7025,7 @@
       )
     )
     (fp_text user "P18" (at 2.75 5.155) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right mirror))
       (tstamp f7200c6a-7ddc-42ec-ad8e-f2ef56369b8b)
       (render_cache "P18" 0
         (polygon
@@ -7180,7 +7180,7 @@
       )
     )
     (fp_text user "P18" (at -2.75 5.155) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 00a01192-849b-4644-9167-401f5446f614)
       (render_cache "P18" 0
         (polygon
@@ -7335,7 +7335,7 @@
       )
     )
     (fp_text user "P4" (at 2.75 2.615) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp 024dfc24-2e80-4be9-84b1-fadcc89bb92a)
       (render_cache "P4" 0
         (polygon
@@ -7391,7 +7391,7 @@
       )
     )
     (fp_text user "P0" (at 2.75 -10.085) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp 1a1d9c3b-9be3-4c3e-8005-db99d5bac7e5)
       (render_cache "P0" 0
         (polygon
@@ -7533,7 +7533,7 @@
       )
     )
     (fp_text user "P15" (at -2.75 7.695) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 3e87c8b7-b8d0-4364-8e22-ef17fc52a5fc)
       (render_cache "P15" 0
         (polygon
@@ -7645,7 +7645,7 @@
       )
     )
     (fp_text user "P16" (at -2.75 12.775) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 3ee5c773-bd85-4697-8e99-401331428f0a)
       (render_cache "P16" 0
         (polygon
@@ -7763,7 +7763,7 @@
       )
     )
     (fp_text user "P21" (at -2.75 -2.465) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 54435802-eed3-4eaa-831b-62f43445028f)
       (render_cache "P21" 0
         (polygon
@@ -7866,7 +7866,7 @@
       )
     )
     (fp_text user "GND" (at -2.75 -10.085) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 65131e9d-008f-48dc-8284-5d541aaf26fe)
       (render_cache "GND" 0
         (polygon
@@ -8044,7 +8044,7 @@
       )
     )
     (fp_text user "GND" (at 2.75 -5.005) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp 663eb99b-fc05-4259-8c8e-b2456fe05d39)
       (render_cache "GND" 0
         (polygon
@@ -8222,7 +8222,7 @@
       )
     )
     (fp_text user "P8" (at 2.75 12.775) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp 7ca2c298-5c2f-4c24-8bf0-951d00f6acde)
       (render_cache "P8" 0
         (polygon
@@ -8371,7 +8371,7 @@
       )
     )
     (fp_text user "P5" (at 2.75 5.155) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp 8497eddc-2b8e-40c2-99ed-d70492a0518d)
       (render_cache "P5" 0
         (polygon
@@ -8477,7 +8477,7 @@
       )
     )
     (fp_text user "P19" (at -2.75 2.615) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 88ebe61f-08f6-4976-ab66-23ae951dc145)
       (render_cache "P19" 0
         (polygon
@@ -8595,7 +8595,7 @@
       )
     )
     (fp_text user "P20" (at -2.75 0.075) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 92ac5cd9-1e48-44f6-a420-e635a908dc7c)
       (render_cache "P20" 0
         (polygon
@@ -8788,7 +8788,7 @@
       )
     )
     (fp_text user "RST" (at -2.75 -7.545) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp 9bfccd80-435a-4ed0-aa8b-51e3303749da)
       (render_cache "RST" 0
         (polygon
@@ -8924,7 +8924,7 @@
       )
     )
     (fp_text user "P7" (at 2.75 10.235) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp a8bee3ae-fb84-49fc-9ac0-9470304a952a)
       (render_cache "P7" 0
         (polygon
@@ -8976,7 +8976,7 @@
       )
     )
     (fp_text user "P6" (at 2.75 7.695) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp b8d6f001-418a-492f-8f9e-28c711f2db75)
       (render_cache "P6" 0
         (polygon
@@ -9088,7 +9088,7 @@
       )
     )
     (fp_text user "MOSI" (at 2.75 -12.625) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp ba91c581-d8cd-4266-bbd2-467eb07af2b3)
       (render_cache "MOSI" 0
         (polygon
@@ -9306,7 +9306,7 @@
       )
     )
     (fp_text user "CS" (at 2.75 0.075) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp c05a2e40-1caa-4c6d-9df4-79c7497aefcb)
       (render_cache "CS" 0
         (polygon
@@ -9478,7 +9478,7 @@
       )
     )
     (fp_text user "P9" (at 2.75 15.315) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp c8b62402-0ce2-4824-b420-ffc95998c905)
       (render_cache "P9" 0
         (polygon
@@ -9590,7 +9590,7 @@
       )
     )
     (fp_text user "RAW" (at -2.75 -12.625) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp d03472f1-232a-470a-886f-03b092e192c0)
       (render_cache "RAW" 0
         (polygon
@@ -9650,7 +9650,7 @@
       )
     )
     (fp_text user "GND" (at 2.75 -7.545) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp da1dc317-6cc9-4fa4-be36-9e80ba810829)
       (render_cache "GND" 0
         (polygon
@@ -9828,7 +9828,7 @@
       )
     )
     (fp_text user "P14" (at -2.75 10.235) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp e52121fa-3448-4c93-bb91-d799b171b5ef)
       (render_cache "P14" 0
         (polygon
@@ -9890,7 +9890,7 @@
       )
     )
     (fp_text user "R. Side - Jumper Here" (at 0 -15.245) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)))
       (tstamp ef8ce3cd-7c38-4b77-84e6-d087b7ca0d45)
       (render_cache "R. Side - Jumper Here" 0
         (polygon
@@ -10591,7 +10591,7 @@
       )
     )
     (fp_text user "SCK" (at 2.75 -2.465) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify right))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify right))
       (tstamp f3d1dc7e-5ece-445c-98f9-09521599c44f)
       (render_cache "SCK" 0
         (polygon
@@ -10770,7 +10770,7 @@
       )
     )
     (fp_text user "P10" (at -2.75 15.315) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp f4aca5fa-23e6-4d2b-8714-5fd7b7476fab)
       (render_cache "P10" 0
         (polygon
@@ -10918,7 +10918,7 @@
       )
     )
     (fp_text user "VCC" (at -2.75 -5.005) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.7 0.7) (thickness 0.15)) (justify left))
+        (effects (font (face "Chakra Petch Medium") (size 0.7 0.7) (thickness 0.15)) (justify left))
       (tstamp f859caef-60c9-474a-b99a-364a3776b398)
       (render_cache "VCC" 0
         (polygon
@@ -15961,7 +15961,7 @@
       (tstamp 7eebbe78-7219-4105-8b1a-c0382cdb4bf6)
     )
     (fp_text user "http://martisak.se" (at 0 0 160) (layer "B.Cu" knockout)
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp 5007432d-90e7-47b1-a5e6-79f03ef87932)
       (render_cache "http://martisak.se" -20
         (polygon
@@ -16542,7 +16542,7 @@
       )
     )
     (fp_text user "http://martisak.se" (at 0 0 160) (layer "B.Mask" knockout)
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)) (justify mirror))
       (tstamp 06e6ddf5-53fc-4a3e-ab88-cbe542152ce7)
       (render_cache "http://martisak.se" -20
         (polygon
@@ -18050,7 +18050,7 @@
     (at 207.060517 84.67448)
     (attr exclude_from_pos_files exclude_from_bom)
     (fp_text reference "DISP1" (at 0 20) (layer "F.SilkS") hide
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)))
       (tstamp 13587d71-a497-4494-a7ba-64f16f215f53)
       (render_cache "DISP1" 0
         (polygon
@@ -18262,7 +18262,7 @@
       (tstamp fb1edf4a-6d48-45bf-9ffa-f89a3debdaee)
     )
     (fp_text user "CS" (at -4.98 21.3) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 2f57a747-a2f9-4f98-b16b-d7f4075b7cf2)
       (render_cache "CS" 0
         (polygon
@@ -18434,7 +18434,7 @@
       )
     )
     (fp_text user "GND" (at -2.38 21.3) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 34caaa75-f917-42ac-b40b-da06183f7db1)
       (render_cache "GND" 0
         (polygon
@@ -18612,7 +18612,7 @@
       )
     )
     (fp_text user "VCC" (at 0.15 19.25) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp 5a712665-7872-486f-ad66-39b4b9e9d4b5)
       (render_cache "VCC" 0
         (polygon
@@ -18784,7 +18784,7 @@
       )
     )
     (fp_text user "CL" (at 2.72 21.3) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp d8bff6b4-e067-446c-9e9d-4baedb9f3875)
       (render_cache "CL" 0
         (polygon
@@ -18876,7 +18876,7 @@
       )
     )
     (fp_text user "DA" (at 5.22 21.3) (layer "B.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)) (justify mirror))
       (tstamp fb0ff901-19ae-4b1e-88e8-ce0db3cd5ef7)
       (render_cache "DA" 0
         (polygon
@@ -18956,7 +18956,7 @@
       )
     )
     (fp_text user "DA" (at -5.08 21.3) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)))
       (tstamp 46fba092-175b-4bf9-83f8-2fe010a2c92c)
       (render_cache "DA" 0
         (polygon
@@ -19036,7 +19036,7 @@
       )
     )
     (fp_text user "GND" (at 2.62 21.3) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)))
       (tstamp 56e758d8-d146-4876-a6d1-d161a52db4f3)
       (render_cache "GND" 0
         (polygon
@@ -19214,7 +19214,7 @@
       )
     )
     (fp_text user "VCC" (at 0.15 19.25) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)))
       (tstamp 8664621a-021a-4fcd-a719-674c9630197d)
       (render_cache "VCC" 0
         (polygon
@@ -19386,7 +19386,7 @@
       )
     )
     (fp_text user "CL" (at -2.48 21.3) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)))
       (tstamp c74dcd1f-5759-472e-98a9-a61f355ba78a)
       (render_cache "CL" 0
         (polygon
@@ -19478,7 +19478,7 @@
       )
     )
     (fp_text user "CS" (at 5.12 21.3) (layer "F.SilkS")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.1)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.1)))
       (tstamp d57d131a-b9ad-4e1e-a25f-256c8b644882)
       (render_cache "CS" 0
         (polygon
@@ -19650,7 +19650,7 @@
       )
     )
     (fp_text user "${REFERENCE}" (at 0 20) (layer "F.Fab")
-        (effects (font (face "Futura") (size 0.8 0.8) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 0.8 0.8) (thickness 0.15)))
       (tstamp f4ebce26-e286-4442-b128-6679f547c3a1)
       (render_cache "DISP1" 0
         (polygon
@@ -20776,12 +20776,12 @@
       (tstamp 435bafaa-9d6c-47d7-80de-70d5ecb6dc46)
     )
     (fp_text user "Sköldpad by Martin Isaksson © 2023 CERN-OHL-P" (at 0 -8) (layer "F.Cu")
-        (effects (font (face "Futura") (size 1.2 1.2) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 1.2 1.2) (thickness 0.15)))
       (tstamp fa2f41b2-c26d-42b7-addd-7e87328e019b)
       
     )
     (fp_text user "Sköldpad by Martin Isaksson © 2023 CERN-OHL-P" (at 0 -8) (layer "F.Mask")
-        (effects (font (face "Futura") (size 1.2 1.2) (thickness 0.15)))
+        (effects (font (face "Chakra Petch Medium") (size 1.2 1.2) (thickness 0.15)))
       (tstamp 18c837bc-fa48-48d4-9521-f34f33e26d44)
       
     )
