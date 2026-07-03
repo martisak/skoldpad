@@ -369,34 +369,6 @@ pcbs.skoldpad:
             outline: _keycap_outlines
             layer: Eco1.User
     footprints:
-        credit:
-            what: text
-            where:
-              ref:
-                - thumb_outer_home
-              shift: [0kx, 0.6ky - 8]
-            adjust:
-                rotate: 90
-            params:
-              knockout: false
-              side: F
-              fontsize: 1.2
-              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
-              font: "Chakra Petch Medium"
-        credit_back:
-            what: text
-            where:
-              ref:
-                - thumb_outer_home
-              shift: [0kx, 0.6ky - 8]
-            adjust:
-                rotate: 90
-            params:
-              knockout: false
-              side: B
-              fontsize: 1.2
-              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
-              font: "Chakra Petch Medium"
         author:
             what: text
             where:
@@ -434,8 +406,8 @@ pcbs.skoldpad:
             params:
               knockout: false
               side: F
-              fontsize: 1.27
-              text: "Martin Isaksson"
+              fontsize: 0.8
+              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
               font: "Chakra Petch Medium"
         owner_back:
             what: text
@@ -448,8 +420,8 @@ pcbs.skoldpad:
             params:
               knockout: false
               side: B
-              fontsize: 1.27
-              text: "Martin Isaksson"
+              fontsize: 0.8
+              text: "Sköldpad 1.1 by Martin Isaksson © 2026 CERN-OHL-P v2"
               font: "Chakra Petch Medium"
         diode:
             what: sod-123w
