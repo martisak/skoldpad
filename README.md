@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./images/header-white.svg">
     <source media="(prefers-color-scheme: light)" srcset="./images/header-black.svg">
-    <img alt="Sköldpad logo" src="./images/header-black.svg" width="320">
+    <img alt="Sköldpad logo" src="./images/header-black.svg" width="100%">
   </picture>
 </p>
 
