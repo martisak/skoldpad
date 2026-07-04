@@ -13102,7 +13102,7 @@
       (net 10 "main_index_bottom") (zone_connect 2) (tstamp 3ccf3ef7-cf2e-460b-98f5-f483ac67cf6c))
   )
 
-  (footprint "Signature:shieldpad" (layer "F.Cu")
+  (footprint "Skoldpad:shieldpad" (layer "F.Cu")
     (tstamp 7aa1c8a9-6ccd-4f5a-b506-8123c23e1e11)
     (at 124 120.7)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -21331,7 +21331,7 @@
       (net 3 "main_outer_home") (tstamp b9192504-fb3d-46d3-bf23-93b8e62d1edf))
   )
 
-  (footprint "Signature:tank" (layer "F.Cu")
+  (footprint "Skoldpad:tank" (layer "F.Cu")
     (tstamp f5074a5f-c55e-4ff2-ad36-9cbdda9e4cc9)
     (at 206.958546 110.670053)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -25104,7 +25104,7 @@
       (net 13 "main_inner_bottom") (zone_connect 2) (tstamp afd398c4-a72d-4a2b-9d64-50979d069c54))
   )
 
-  (footprint "Signature:shieldpad" (layer "B.Cu")
+  (footprint "Skoldpad:shieldpad" (layer "B.Cu")
     (tstamp 6dd7da11-1a6b-49d9-8ee8-a2ac2bf1eacb)
     (at 124 120.7 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)
@@ -27402,7 +27402,7 @@
       (stroke (width 0) (type solid)) (fill solid) (layer "B.Mask") (tstamp dc93543a-95c8-413e-a963-792b26f5f323))
   )
 
-  (footprint "Signature:tank" (layer "B.Cu")
+  (footprint "Skoldpad:tank" (layer "B.Cu")
     (tstamp eb85318f-f34d-42df-b67e-2e3e795af756)
     (at 206.958546 110.670053 180)
     (attr board_only exclude_from_pos_files exclude_from_bom)

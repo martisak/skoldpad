@@ -61,7 +61,7 @@ npm run ergogen:watch
 ## KiCad
 
 The hand-routed PCB lives at [`ergogen/kicad/skoldpad.kicad_pcb`](./ergogen/kicad/skoldpad.kicad_pcb)
-(along with the schematic, 3D step model, and the custom `Signature.pretty` footprint library it
+(along with the schematic, 3D step model, and the custom `Skoldpad.pretty` footprint library it
 depends on) — open `ergogen/kicad/skoldpad.kicad_pro` in KiCad.
 
 <p align="center">

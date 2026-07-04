@@ -42,7 +42,7 @@ needs its footprint *placement* re-synced from `ergogen/output/pcbs/` when `conf
 changes key positions; routing (traces) must be redone by hand in KiCad after any resync.
 
 Custom KiCad footprints not available upstream live in
-`ergogen/kicad/Signature.pretty/` (referenced via `ergogen/kicad/fp-lib-table`).
+`ergogen/kicad/Skoldpad.pretty/` (referenced via `ergogen/kicad/fp-lib-table`).
 
 **Design is split across three files/tools that must stay in sync when the layout changes:**
 `ergogen/config.yaml` (layout/matrix) → `ergogen/kicad/skoldpad.kicad_pcb` (routed board, KiCad)
