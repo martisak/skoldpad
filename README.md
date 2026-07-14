@@ -17,12 +17,12 @@ symbols) lives in its own repo: **[martisak/zmk-config](https://github.com/marti
 ## Renders
 
 <p align="center">
-    <img src="./images/top.png" width="49%">
-    <img src="./images/bottom.png" width="49%">
+    <img src="./images/top.jpg" width="49%">
+    <img src="./images/bottom.jpg" width="49%">
 </p>
 <p align="center">
-    <img src="./images/shield.png" width="49%">
-    <img src="./images/tank.png" width="49%">
+    <img src="./images/shield.jpg" width="49%">
+    <img src="./images/tank.jpg" width="49%">
 </p>
 
 ## Prerequisites
@@ -154,12 +154,17 @@ above) and a filament of your choice.
 
 Code (footprint generator scripts, build tooling) is [MIT](./LICENSE). The
 hardware design (PCB, schematic, case, and ergogen layout) is
-[CERN-OHL-P v2](./LICENSE-HARDWARE).
+[CC BY-NC-SA 4.0](./LICENSE-HARDWARE), matching the license of the nice!nano
+and nice!view footprints it incorporates (see Thanks below).
 
 ## Thanks
 
 * <a href="https://github.com/ergogen/ergogen" target="_blank">Ergogen</a>
 * <a href="https://discord.gg/nbKcAZB" target="_blank">Absolem Club Discord</a>
+* <a href="https://github.com/infused-kim/kb_ergogen_fp" target="_blank">@infused-kim</a>
+  for the original nice!nano and nice!view footprints, and
+  <a href="https://github.com/ceoloide/ergogen-footprints" target="_blank">@ceoloide</a>
+  for maintaining and upgrading them to KiCad 8 (both CC BY-NC-SA 4.0)
 * <a href="https://github.com/tsteffek/Ergogen-V4-Migration-Guide" target="_blank">V4 Migration Guide</a>
 * <a href="https://gitlab.com/Audijo/keyboard" target="_blank">Claw</a>
 * <a href="https://github.com/MrCarney/mrkeyboard" target="_blank">MrKeyboard</a>
