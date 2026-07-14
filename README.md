@@ -95,7 +95,7 @@ should work but hasn't been tested yet.
 ## Case
 
 <p align="center">
-    <img src="./images/case.png" width="100%">
+    <img src="./images/case.jpg" width="100%">
 </p>
 
 The case is designed in [Shapr3D](https://app.shapr3d.com/p/ba8f4a1e-6f99-4bed-8f1e-6df41bfcee0b)
