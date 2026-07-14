@@ -533,3 +533,35 @@ pcbs.skoldpad:
         screw_holes:
           what: mountinghole
           where: [screw]
+        shield:
+            what: shield
+            where:
+                ref: main_inner_bottom
+                shift: [-58.700516, -14.525516]
+            params:
+                side: F
+        shield_back:
+            what: shield
+            where:
+                ref: main_inner_bottom
+                shift: [-58.700516, -14.525516]
+            adjust:
+                rotate: 180
+            params:
+                side: B
+        tank:
+            what: tank
+            where:
+                ref: main_inner_bottom
+                shift: [24.25803, -4.495569]
+            params:
+                side: F
+        tank_back:
+            what: tank
+            where:
+                ref: main_inner_bottom
+                shift: [24.25803, -4.495569]
+            adjust:
+                rotate: 180
+            params:
+                side: B

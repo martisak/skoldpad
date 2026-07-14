@@ -1,13 +1,11 @@
-(footprint "LOGO" (version 20260705) (generator "svg2mod")
-  (layer "F.Cu")
-  (descr "Imported from images/tank.svg")
-  (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
-  (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
-    (effects (font (size 1.5 1.5) (thickness 0.3)))
-  )
+// Front-side geometry generated from images/tank.svg via
+// martisak/svg2mod (--format kicad6), which emits the modern KiCad 6+
+// convention natively (footprint keyword, quoted layers, stroke/fill
+// blocks) -- no post-hoc syntax conversion needed. Back side is derived
+// at build time by negating the Y coordinate of every point and
+// swapping F.* layers for B.*, the same transform KiCad itself uses
+// when a footprint is flipped to the back of the board.
+const front = `
   (fp_poly
     (pts 
       (xy -2.467037438958 -1.881878808395)
@@ -2122,4 +2120,39 @@
     (fill solid)
     (layer "F.Mask")
   )
-)
+`;
+
+function mirror(body) {
+    return body
+        .replace(/\(layer "F\.(Cu|Mask|SilkS)"\)/g, '(layer "B.$1")')
+        .replace(/\((start|end|xy) (-?[0-9.]+) (-?[0-9.]+)\)/g,
+            (m, tag, x, y) => `(${tag} ${x} ${negate(y)})`);
+}
+
+function negate(n) {
+    return n[0] === '-' ? n.slice(1) : (parseFloat(n) === 0 ? n : `-${n}`);
+}
+
+module.exports = {
+    params: {
+        designator: 'LOGO',
+        side: 'F',
+    },
+    body: p => `
+    (footprint "tank"
+      (version 20260705)
+      (generator "svg2mod")
+      (layer "${p.side}.Cu")
+      (descr "Imported from images/tank.svg")
+      (tags "svg2mod")
+      (attr smd)
+      ${p.at}
+      (fp_text reference "${p.ref}" (at 0 -5.660054840894) (layer "${p.side}.SilkS") hide
+        (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      )
+      (fp_text value "tank" (at 0 5.660054840894) (layer "${p.side}.SilkS") hide
+        (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      )
+      ${p.side === 'F' ? front : mirror(front)}
+    )`
+}
