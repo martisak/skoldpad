@@ -8,12 +8,13 @@ module.exports = {
         font: "Chakra Petch Medium"
     },
     body: p => `
-        (module lib:text (layer F.Cu) (tedit 648E0265)
+        (footprint "lib:text"
+        (layer "F.Cu")
 
         ${p.at /* parametric position */}
 
-        (fp_text user "${p.text}" (at 0 0 ${p.rot + 90}) (layer ${p.side}.Cu ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
-        (fp_text user "${p.text}" (at 0 0 ${p.rot + 90}) (layer ${p.side}.Mask ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
+        (fp_text user "${p.text}" (at 0 0 ${p.r + 90}) (layer "${p.side}.Cu" ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
+        (fp_text user "${p.text}" (at 0 0 ${p.r + 90}) (layer "${p.side}.Mask" ${p.knockout ? "knockout" : ""}) (effects (font face "${p.font}") (size ${p.fontsize} ${p.fontsize}) (thickness 0.15)) ${p.side === 'F' ? "" : "(justify mirror)"} ))
         )
         `
 

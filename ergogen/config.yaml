@@ -363,6 +363,7 @@ cases:
     #     operation: add
 
 pcbs.skoldpad:
+    template: kicad8
     outlines:
         main.outline: _board_outline
         keycaps:
