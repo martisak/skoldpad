@@ -408,7 +408,7 @@ pcbs.skoldpad:
               knockout: false
               side: F
               fontsize: 0.8
-              text: "Sköldpad 1.1 © 2026 CERN-OHL-P v2"
+              text: "Sköldpad 1.1 © 2026 CC BY-NC-SA 4.0"
               font: "Chakra Petch Medium"
         license_back:
             what: text
@@ -422,7 +422,7 @@ pcbs.skoldpad:
               knockout: false
               side: B
               fontsize: 0.8
-              text: "Sköldpad 1.1 © 2026 CERN-OHL-P v2"
+              text: "Sköldpad 1.1 © 2026 CC BY-NC-SA 4.0"
               font: "Chakra Petch Medium"
         diode:
             what: sod-123w
@@ -469,17 +469,16 @@ pcbs.skoldpad:
                 from: "{{col_net}}"
                 to: "{{name}}"
         promicro:
-            what: nice_nano_pretty
+            what: mcu_nice_nano
             where:
                 ref: mcu
             adjust:
                 rotate: 90
             params:
+              reversible: true
               P1: MOSI
               P2: SCK
               P3: CS
-              font: "Chakra Petch Medium"
-              fontsize: 0.7
 
         scrollwheel:
             what: scrollwheel
@@ -497,15 +496,14 @@ pcbs.skoldpad:
                 C: P19
                 D: ''
         niceview:
-          what: nice_view
+          what: display_nice_view
           where:
             ref: mcu
             shift: [2, 0]
             rotate: 90
           params:
-            reverse: true
-            jumpers_at_bottom: true
-            font: "Chakra Petch Medium"
+            reversible: true
+            invert_jumpers_position: true
         jst-s2b-ph-kl:
             what: jst-s2b-ph-kl
             where:

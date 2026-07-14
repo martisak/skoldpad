@@ -57,5 +57,11 @@ The PCB is designed once and fabricated twice (normal + mirrored) to produce a l
 
 Code (footprint generator scripts in `ergogen/footprints/`, build tooling) is MIT
 (`LICENSE`). The hardware design itself — ergogen layout, PCB/schematic, 3D model, case,
-renders in `images/` — is CERN-OHL-P v2 (`LICENSE-HARDWARE`). Keep new files in the
-correct category when adding license headers or discussing reuse.
+renders in `images/` — is CC BY-NC-SA 4.0 (`LICENSE-HARDWARE`). It was CERN-OHL-P v2
+until the design incorporated `ergogen/footprints/mcu_nice_nano.js` and
+`display_nice_view.js` (originally by @infused-kim, maintained/extended by @ceoloide,
+themselves CC BY-NC-SA 4.0); the whole hardware design was relicensed to match rather
+than leaving just those two files under different terms. Keep new files
+in the correct category when adding license headers or discussing reuse, and check the
+license of anything copied in from other ergogen/keyboard repos before adding it — this
+project has already picked up NC-licensed content this way once without noticing.
