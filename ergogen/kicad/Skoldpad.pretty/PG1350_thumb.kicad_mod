@@ -1,0 +1,280 @@
+(footprint "PG1350_thumb"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "S14"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "1a6fee95-412b-40ea-a7e2-89f39a51de1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0a7cdb77-9934-4d64-bfb3-bdad21ae6bb8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1712f61c-4a44-4701-979e-ffc0192420fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65165daa-d210-4202-a3b4-8743b5838d48")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9 -8.5)
+		(end 9 -8.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f510f527-333b-4c23-8eb8-6e3f08dfd2ee")
+	)
+	(fp_line
+		(start -9 8.5)
+		(end -9 -8.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f905d342-fe34-4819-bfcf-d5621de81d0b")
+	)
+	(fp_line
+		(start -7 -6)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "f586fff6-88fb-4277-babf-f6cab4f177f9")
+	)
+	(fp_line
+		(start -7 7)
+		(end -7 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1abc1201-c9d6-48bf-9399-6e9899106938")
+	)
+	(fp_line
+		(start -7 7)
+		(end -6 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ae8d3ada-339b-48e6-8096-5c1a1de7581d")
+	)
+	(fp_line
+		(start -6 -7)
+		(end -7 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b5291135-78e6-4a24-a07d-d0cc59aba93a")
+	)
+	(fp_line
+		(start 6 7)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "881436c9-0433-48ad-af25-f45e00e90d23")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 6 -7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "242a29cc-94e6-49bd-bf54-3747e0aaea22")
+	)
+	(fp_line
+		(start 7 -7)
+		(end 7 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a9513ce-548d-406c-b129-4c8199271ca8")
+	)
+	(fp_line
+		(start 7 6)
+		(end 7 7)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6aa391cb-bad8-4d61-9c9a-ffa9e9335818")
+	)
+	(fp_line
+		(start 9 -8.5)
+		(end 9 8.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7af6177a-f3e2-4416-9fdd-a5c86f8381c3")
+	)
+	(fp_line
+		(start 9 8.5)
+		(end -9 8.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9a4157a5-ad9c-4f78-896a-a6834e081a01")
+	)
+	(pad "" np_thru_hole circle
+		(at -5.5 0)
+		(size 1.7018 1.7018)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(uuid "61a03bae-20d9-4e26-b530-51defb83c409")
+	)
+	(pad "" np_thru_hole circle
+		(at -5 -3.75)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "a2a816d3-f614-490f-be3d-61210fbdce63")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -5.95)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "11c92533-65ac-457b-a6d9-b978d3b8e261")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -5.95)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "1e23b59a-16e1-4509-bc00-8e548731e08c")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.429 3.429)
+		(drill 3.429)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9b86cd1e-c9d0-4047-ac60-8e43ce407ffd")
+	)
+	(pad "" np_thru_hole circle
+		(at 5 -3.75)
+		(size 3 3)
+		(drill 3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "2fc3508a-e005-4c18-922d-9fe5d5f5087c")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 0)
+		(size 1.7018 1.7018)
+		(drill 1.7018)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d2325f3f-a4ce-4c34-8eb1-7bebc7379c6b")
+	)
+	(pad "1" smd rect
+		(at -3.275 -5.95)
+		(size 2.6 2.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "fed795a2-7273-4f0a-a336-cbe4dfaf1c64")
+	)
+	(pad "1" smd rect
+		(at 3.275 -5.95)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d9b9ceea-0673-4039-ad7c-4c50d3d9b77c")
+	)
+	(pad "2" smd rect
+		(at -8.275 -3.75)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "18ab1868-a0e9-454d-90af-59b467ddc33b")
+	)
+	(pad "2" smd rect
+		(at 8.275 -3.75)
+		(size 2.6 2.6)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "5b561f1e-5765-4c5e-ba49-58b9c36337a3")
+	)
+	(embedded_fonts no)
+	(model "/Users/eisamar/devel/skoldpad/3d/SW_Kailh_Choc_V1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/eisamar/devel/skoldpad/3d/SW_Hotswap_Kailh_Choc_v1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "/Users/eisamar/devel/Keycaps/Unnamed4-[Choc] Thumb v5.step"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
